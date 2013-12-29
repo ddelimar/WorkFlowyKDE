@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=WorkFlowy
+Comment=Organize your brain.
+Icon=workflowy
+#Icon=icon.png (if plasmoid? - if I want to provide the icon with plasmoid)
+
+Type=Application
+Exec=workflowy.py
+#(if plasmoid? - minus "Exec")
+##Type=Service
+##X-KDE-ServiceTypes=Plasma/Applet
+ 
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-Plasma-DefaultSize=200,100
+ 
+X-KDE-PluginInfo-Author=Dom Delimar
+X-KDE-PluginInfo-Email=workflowybugs@domdelimar.com
+X-KDE-PluginInfo-Name=workflowy
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=http://domdelimar.com/wf
+X-KDE-PluginInfo-Category=Online Services
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
