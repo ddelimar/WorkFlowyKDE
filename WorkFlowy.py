@@ -11,9 +11,16 @@ from PyQt4.QtWebKit import *
 
 class WorkFlowyWeb(object):
 	def __init__(self):
-		self.web = QWebView()
+		self.window = KMainWindow()
+		self.widget = QWidget()
+		self.window.setCentralWidget(self.widget)
+
+		layout = QVBoxLayout(self.widget)
+		
+		self.web = QWebView(self.widget)
 		self.web.load(QUrl("http://workflowy.com/"))
-		self.web.show()
+		layout.addWidget(self.web)
+		self.window.show()
 
 appName = "workflowy"
 catalog = ""
