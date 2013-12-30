@@ -17,4 +17,4 @@ and run it by calling:
 
 	python workflowy.py
 
-from your command line.
+from your command line.[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8ac07c556bd1ee0171042e9036383721 "githalytics.com")](http://githalytics.com/ddelimar/WorkFlowyKDE)
