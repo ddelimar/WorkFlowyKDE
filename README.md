@@ -1,7 +1,7 @@
-WorkFlowyKDE
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8ac07c556bd1ee0171042e9036383721 "githalytics.com")](http://githalytics.com/ddelimar/WorkFlowyKDE)WorkFlowyKDE
 ============
 
-A simple browser window into [workflowy.com](https://workflowy.com/?ref=14da4ba8) web app for KDE enviroinment.
+A simple browser window into <a href="https://workflowy.com/?ref=14da4ba8" onClick="trackOutboundLink(this, 'Outbound Links', 'WorkFlowy referral'); return false;">workflowy.com</a> web app for KDE enviroinment.
 
 WorkFlowy is an organizational tool that helps you organize personal to-dos, collaborate on large team projects, take notes, write research papers, keep a journal, plan a wedding, and much more.
 
@@ -17,4 +17,4 @@ and run it by calling:
 
 	python workflowy.py
 
-from your command line.[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8ac07c556bd1ee0171042e9036383721 "githalytics.com")](http://githalytics.com/ddelimar/WorkFlowyKDE)
+from your command line.
